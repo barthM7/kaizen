@@ -6,7 +6,7 @@ module.exports = {
             .select('*')
             .orderBy('nome');
 
-        return response.json({ usersList });
+        return response.json(usersList);
     },
 
     async create(request, response) {

@@ -1,0 +1,52 @@
+.formContainer {
+    margin-top: 15vh;
+    margin-left: 50px;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: initial;
+}
+
+.formContainer form div {
+    display: grid;
+    width: 22vw;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.formContainer form div label {
+    margin-top: 20px;
+}
+
+.formContainer form div input, select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+}
+
+.formContainer form .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 9px;
+}
+
+.formContainer form .buttonContainer .backButton, .addButton {
+    background-color: #99143F;
+    color: #FFFFFF;
+    width: 77px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.formContainer form .buttonContainer button{
+    cursor: not-allowed;
+}
+
+.formContainer form .buttonContainer .backButton:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+.cardBody {
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 1px 1px 10px 10px;
+    margin: 0 auto;
+    width: 97vw;
+    height: 96vh;
+    max-width: 1256px;
+    margin-top: 1vw;
+    align-items: center;
+}
+
+.cardTitle {
+    border-bottom: 1px solid #E4E9F2;
+    padding: 1vh 4vw;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 18vh auto;
+    text-align: center;
+    width: 85%;
+}

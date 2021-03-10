@@ -1,8 +1,12 @@
 import React from 'react';
+import './styles/global.css';
+import Routes from './routes';
 
 function App() {
   return (
-    <h1>App</h1>
+    <div className="cardBody">
+      <Routes />
+    </div>
   );
 }
 
